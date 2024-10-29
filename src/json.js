@@ -1,6 +1,7 @@
 import { pi, deg2rad } from './constants';
 
 import sgp4init from './propagation/sgp4init';
+import { jday, days2mdhms } from './ext';
 
 import { DateTime } from 'luxon';
 
@@ -22,6 +23,8 @@ export default function jsonFormat(fields) {
     let epoch_datetime = DateTime.fromISO(fields['EPOCH']);
     satrec.epoch = epoch_datetime.diff(DateTime.fromISO(_epoch0)).as('seconds') / 86400.0;
 
+    satrec.jdsatepoch = jday(epoch_datetime.year, epoch_datetime.month, epoch_datetime.day, epoch_datetime.hour, epoch_datetime.minute, epoch_datetime.second);
+
     satrec.argpo = fields['ARG_OF_PERICENTER'] * _to_radians
     satrec.bstar = fields['BSTAR']
     satrec.ecco = fields['ECCENTRICITY']
@@ -35,7 +38,7 @@ export default function jsonFormat(fields) {
 
   //  ---------------- initialize the orbit at sgp4epoch -------------------
   sgp4init(satrec, {
-    opsmode,
+    opsmode: 'i',
     satn: satrec.satnum,
     epoch: satrec.epoch,
     xbstar: satrec.bstar,
