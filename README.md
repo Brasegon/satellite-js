@@ -505,5 +505,3 @@ I worked in the Dining Hall at UCSC for a month, which means I signed a form tha
 anything I make while under their aegis, so I included them as owners of the copyright.
 
 Please email all complaints to help@ucsc.edu
-#   s a t e l l i t e - j s  
- 
