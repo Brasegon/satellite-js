@@ -1,5 +1,5 @@
 {
-  "name": "satellite.js",
+  "name": "@brangers/satellite.js",
   "version": "5.0.0",
   "description": "SGP4/SDP4 calculation library",
   "main": "lib/index.js",
@@ -27,6 +27,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/shashwatak/satellite-js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "sgp4",
