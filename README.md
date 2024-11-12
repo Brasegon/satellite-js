@@ -1,4 +1,6 @@
-# satellite.js
+# Fork de satellite.js
+
+Mise en place du format JSON à la place du format TLE
 
 [![NPM version](https://img.shields.io/npm/v/satellite.js.svg)](https://www.npmjs.com/package/satellite.js)
 [![Downloads/month](https://img.shields.io/npm/dm/satellite.js.svg)](https://www.npmjs.com/package/satellite.js)
