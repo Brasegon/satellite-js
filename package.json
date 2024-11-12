@@ -1,5 +1,5 @@
 {
-  "name": "@brangers/satellite.js",
+  "name": "@brasegon/satellite.js",
   "version": "5.0.0",
   "description": "SGP4/SDP4 calculation library",
   "main": "lib/index.js",
