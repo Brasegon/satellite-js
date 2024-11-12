@@ -22,7 +22,7 @@
     "test:coverage": "jest --coverage",
     "test:coveralls": "npm run test:coverage && cat coverage/lcov.info | coveralls",
     "raise": "raise-version",
-    "prepublishOnly": "npm run lint && npm run lint:test && npm test && npm run build"
+    "prepublishOnly": "npm test && npm run build"
   },
   "repository": {
     "type": "git",
