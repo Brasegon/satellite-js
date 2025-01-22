@@ -35,13 +35,13 @@
     "sgp4",
     "satellite"
   ],
-  "author": "Shashwat Kandadai <shashwatak@gmail.com> (https://github.com/shashwatak)",
+  "author": "Fork by Brandon (Shashwat Kandadai <shashwatak@gmail.com> (https://github.com/shashwatak))",
   "contributors": [
     "Dmitriy Pushkov <ezze@ezze.org> (http://www.ezze.org)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shashwatak/satellite-js/issues"
+    "url": "https://github.com/brasegon/satellite-js/issues"
   },
   "dependencies": {
     "luxon": "^3.5.0"
@@ -77,7 +77,7 @@
       "test/propagation/sgp4prop"
     ]
   },
-  "homepage": "https://github.com/shashwatak/satellite-js",
+  "homepage": "https://github.com/brasegon/satellite-js",
   "directories": {
     "lib": "lib",
     "test": "test"
