@@ -1,6 +1,6 @@
 {
   "name": "@brasegon/satellite.js",
-  "version": "5.0.0",
+  "version": "0.0.8",
   "description": "SGP4/SDP4 calculation library",
   "main": "lib/index.js",
   "jsnext:main": "dist/satellite.es.js",
