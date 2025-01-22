@@ -1,4 +1,4 @@
-declare module 'satellite.js' {
+declare module '@brasegon/satellite.js' {
   /**
    * Satellite record containing description of orbit.
    */
